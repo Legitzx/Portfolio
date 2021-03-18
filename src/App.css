@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  scroll-behavior: smooth;
+}
+
+.wrapper {
+  margin-right: auto;
+  /* 1 */
+  margin-left: auto;
+  /* 1 */
+  max-width: 1250px;
+  /* 2 */
+  padding-right: 10px;
+  /* 3 */
+  padding-left: 10px;
+  /* 3 */
+}
+
+.navbar {
+  background: white;
+}
+
+.navbar nav {
+  min-height: 2vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.navbar nav .mobile-menu {
+  display: none;
+}
+
+.navbar nav .logo {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-left: -7%;
+  font-size: 20px;
+}
+
+.navbar nav .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbar nav .container .mobile-menu-exit,
+.navbar nav .container .mobile-menu {
+  display: none;
+}
+
+.navbar nav .container .main-navbar-links #last-item-navbar {
+  border-right: 2px solid black;
+  padding-right: 60px;
+  height: 200px;
+}
+
+.navbar nav .container .social-media-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.navbar nav .container .social-media-links li {
+  padding-left: 40px;
+  cursor: pointer;
+}
+
+.navbar nav li {
+  display: inline-block;
+  padding-left: 6em;
+}
+
+.navbar nav li a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.navbar nav li a:hover {
+  color: black;
+}
+
+section.hero {
+  background: black;
+  width: 100%;
+  min-height: 92vh;
+  background-size: cover;
+}
+
+section.hero .container {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 90vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+section.hero .container h1 {
+  color: white;
+  font-size: 5em;
+}
+
+section.hero .container p {
+  margin-top: .2em;
+  color: white;
+  font-size: 3em;
+}
+
+section.hero .container a {
+  text-decoration: none;
+  color: white;
+  border-style: solid;
+  border-width: .1em;
+  letter-spacing: .1em;
+  padding: .5em;
+  margin-top: 4em;
+}
+
+#particles-js {
+  height: 92vh;
+}
+
+section.about-me {
+  background: white;
+  width: 100%;
+  min-height: 80vh;
+}
+
+section.about-me .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 15%;
+}
+
+section.about-me .content .card {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 45%;
+  flex: 0 1 45%;
+}
+
+section.about-me .content .card h1 {
+  font-size: 62px;
+}
+
+section.about-me .content .card p {
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+section.about-me .content .card#about-me-image {
+  text-align: center;
+}
+
+section.about-me .content .card#about-me-image img {
+  width: 100%;
+  height: auto;
+}
+
+section.featured-project-section {
+  background: white;
+  width: 100%;
+  min-height: 130vh;
+}
+
+section.featured-project-section .content .project-introduction h1 {
+  font-size: 62px;
+}
+
+section.featured-project-section .content .project-introduction p {
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+section.featured-project-section .content .projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+section.featured-project-section .content .projects .project {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 1 45%;
+  flex: 0 1 45%;
+  margin-top: 3%;
+}
+
+section.featured-project-section .content .projects .project h2 {
+  margin: 2% 0 2% 0;
+}
+
+section.featured-project-section .content .projects .project p {
+  margin: 2% 0 3% 0;
+}
+
+section.featured-project-section .content .projects .project img {
+  width: 100%;
+  height: auto;
+}
+
+section.contact-section {
+  background: white;
+  width: 100%;
+  min-height: 20vh;
+}
+
+section.contact-section .container {
+  margin-top: 14%;
+}
+
+section.contact-section .container h1 {
+  font-size: 62px;
+}
+
+section.contact-section .container p {
+  margin: 2% 0 2%;
+  font-size: 20px;
+}
+
+section.contact-section .container button {
+  background: transparent;
+  padding: 0.5em 1em 0.5em 1em;
+  border: 1px solid black;
+}
+
+section.footer {
+  background: white;
+  width: 100%;
+  min-height: 10vh;
+}
+
+section.footer .container {
+  margin-top: 10%;
+}
+
+section.footer .container p {
+  text-align: center;
+}
+
+@media only screen and (max-width: 972px) {
+  .main-navbar-links {
+    display: none;
+  }
+
+  .social-media-links {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  section.about-me .content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column wrap;
+    flex-flow: column wrap;
+  }
+
+  section.about-me img {
+    margin: 7% 0 7% 0;
+  }
+
+  section.featured-project-section .project-introduction {
+    padding: 3% 0 2% 0;
+  }
+
+  section.featured-project-section .projects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  section.featured-project-section .projects .project {
+    padding: 3% 0 3% 0;
+  }
+
+  section.contact-section button {
+    margin-top: 4%;
+  }
+
+  section.footer {
+    height: 20%;
+  }
+}
+
+section.form {
+  /* Style the submit button with a specific background color etc */
+  /* When moving the mouse over the submit button, add a darker green color */
+}
+
+section.form h1 {
+  margin: 3% 0 3% 0;
+}
+
+section.form input,
+section.form select,
+section.form textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #ccc;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical;
+}
+
+section.form input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+section.form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/*# sourceMappingURL=main.css.map */
