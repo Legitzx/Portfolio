@@ -7,7 +7,7 @@ const Projects = () => {
                 <div class="content">
                     <div class="project-introduction">
                         <h1>Featured Projects</h1>
-                        <p>Here are a few of my notable projects. All source code and documentation is provided via a GitHub link to its respective repository. If you would like to check out my other projects, just click on one of the github links below and visit my profile.</p>
+                        <p>Here are a few of my notable projects. All source code and documentation is provided via a GitHub link to its respective repository. If you would like to check out my other projects, just click on one of the GitHub links below and visit my profile.</p>
                     </div>
                     
                     <div class="projects">
